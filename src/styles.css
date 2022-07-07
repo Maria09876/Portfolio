@@ -25,6 +25,7 @@ body{
     font-family: var(--heading-font-family);
     font-weight: bold;
     font-size: 96px;
+    line-height: 1.5;
 }
 .hero h2{
     font-weight: normal;
@@ -89,54 +90,25 @@ img{
 }
 
 @media (max-width:950px){
-    .project-description{
-        padding: 0;
-        text-align: center;
-    }
+   .hero h1{
+    font-size: 50px;
+   }
+   h2{
+    font-size: 44px;
+   }
+   .hero{
+    padding: 80px 20px;
+   }
 
-    .project-description .solid{
-        display: block;
-    }
-    
-
-    .project-description h2{
-        font-size: x-large;
-    }
-
-    .project-description .btn-branding-secondary{
-       font-size: 15px;
-       font-weight: 200;
-       padding: 5px 20px;
-       line-height: 27px;
-    }
-
-    body{
-        margin: 0%;
-        padding: 0%;
-    }
-
-    .hero{
-        padding: 0%;
-        margin: 0%;
-        text-align: center;
-    }
-
-    .hero p{
-        font-size: 20px;
-    }
-    
-    .hero h1{
-        font-size: 30px;
-        
-    }
-    .hero h2 {
-        font-size: 20px;
-    }
-    .hero .btn-branding{
-        padding: 10px 25px;
-        line-height: 20px;
-        font-size: 15px;
-        font-weight: 200;
-        margin-bottom: 15px;       
+   .hero p{
+    font-size: 22px;
+   }
+   
+   .project-description{
+    padding: 30px 30px;
+   }
+   
+   .project-description .solid {
+    display: block;
     }
 }
