@@ -9,6 +9,9 @@
 body{
     font-family: var(--default-font-family);
 }
+.pre-title{
+    font-size: 28px;
+}
 .hero{
     background-color: rgba(210,199,213, 0.2);
     padding: 270px 375px;
@@ -110,5 +113,9 @@ img{
    
    .project-description .solid {
     display: block;
+    }
+
+    .pre-title{
+        font-size: 22px;
     }
 }
