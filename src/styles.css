@@ -32,16 +32,111 @@ body{
     line-height: 2;
 }
 
-.btn-primary{
+.btn-branding{
     padding: 20px 35px;
     background: var(--primary-color);
     line-height: 27px;
     font-size: 20px;
     font-weight: 500;
-    border: var(--primary-color) solid 1px;    
+    border: var(--primary-color) solid 1px;
+    border-radius: 4px;    
 }
-.btn-primary:hover{
+.btn-branding:hover{
     background: #e0bbbe;
     border: #e0bbbe solid 1px;
+    transition-delay: 2ms;
+    transition: ease-in-out;
 }
 
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn-branding-secondary{
+    background: #c86b85;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 15px 30px;
+    line-height: 27px;
+}
+
+.btn-branding-secondary:hover{
+    background: #fff;
+    color: #c86b85;
+    border: #c86b85 solid 1px;
+    transition:ease-in-out;
+    transition-delay: 20ms;
+    
+}
+.project-description{
+    padding:100px 60px ;
+}
+.project-description .solid{
+    display: none;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width:950px){
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+
+    .project-description .solid{
+        display: block;
+    }
+    
+
+    .project-description h2{
+        font-size: x-large;
+    }
+
+    .project-description .btn-branding-secondary{
+       font-size: 15px;
+       font-weight: 200;
+       padding: 5px 20px;
+       line-height: 27px;
+    }
+
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .hero{
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+    
+    .hero h1{
+        font-size: 30px;
+        
+    }
+    .hero h2 {
+        font-size: 20px;
+    }
+    .hero .btn-branding{
+        padding: 10px 25px;
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: 200;
+        margin-bottom: 15px;       
+    }
+}
