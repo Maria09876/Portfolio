@@ -17,8 +17,7 @@ body{
     background-color: RGBA(211, 162, 204, 0.25);
     padding: 270px 375px;
     text-align: center;
-    margin: 0;
-    
+    margin: 0;    
 }
 .logo{
     max-width:100px;
@@ -133,6 +132,9 @@ p{
     line-height: 30px;
 }
 
+h4{
+    font-size: 48px;
+}
 .btn-branding-secondary{
     background: #c86b85;
     color: #fff;
@@ -160,7 +162,40 @@ img , #about-me-image{
     height: auto;
     width: 100%;
 }
+footer .contact-box{
+    background-color:RGBA(211, 162, 204, 0.25);
+    padding: 25px 120px;
+    border-radius: 10px;
+}
 
+footer .contact-box p{
+    margin: 0;
+}
+
+footer .email-link{
+    text-decoration: none;
+    color: #7B7793;
+    font-size: 22px;
+}
+footer .email-link:hover{
+    color: var(--secondary-color);
+    text-decoration: underline;
+    margin-top: 0;
+}
+footer .social-links a{
+    margin-right: 22px;
+    color: #c86b85;
+    background-color: #f9f8fa;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover{
+    background-color: #c86b85;
+    color: #f9f8fa;
+    
+}
 
 
 @media (max-width:950px){
@@ -169,6 +204,10 @@ img , #about-me-image{
    }
    h2{
     font-size: 44px;
+   }
+
+   h4{
+    font-size: 26px;
    }
    .hero{
     padding: 80px 20px;
@@ -195,7 +234,16 @@ img , #about-me-image{
         padding: 0;
     }
     
+    footer .contact-box {
+    padding: 25px;
+    }
+
+    footer #contact-me-button{
+        padding:20px;
+    }
+
     nav a{
         font-size: 14px;
     }
+
 }
