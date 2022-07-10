@@ -19,6 +19,33 @@ body{
     text-align: center;
     margin: 0;
 }
+.logo{
+    max-width:100px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    line-height: 85px;    
+}
+
+nav li a{
+    text-decoration: none;
+    color: #272142;
+    font-size: 16px;
+}
+nav a:hover , li.active a{
+    color: var(--secondary-color);
+    transition: all 100ms ease-in-out;
+   
+}
+
+
 .content-container {
     padding: 160px 20px; ;
 }
@@ -70,7 +97,7 @@ body{
 
 .contact-details a{
     text-decoration: none;
-    color: #8984a5;
+    color: #7B7793;
     font-size: 24px;
 }
 .contact-details a:hover {
@@ -90,7 +117,7 @@ body{
 .btn-branding:hover{
     background: #e0bbbe;
     border: #e0bbbe solid 1px;
-    transition: all 150ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 h2{
@@ -118,7 +145,7 @@ p{
     background: #fff;
     color: #c86b85;
     border: #c86b85 solid 1px;
-    transition: all 150ms ease-in-out;
+    transition: all 200ms ease-in-out;
     
 }
 .project-description{
@@ -165,7 +192,10 @@ img{
     }
     
     #about-me-image{
-        width:300px;
-      
+        width:300px;      
+    }
+
+    nav a{
+        font-size: 14px;
     }
 }
