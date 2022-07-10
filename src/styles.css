@@ -47,7 +47,7 @@ nav a:hover , li.active a{
 
 
 .content-container {
-    padding: 160px 20px; ;
+    padding: 50px 20px; ;
 }
 
 .content-container h1{
@@ -154,10 +154,12 @@ p{
 .project-description .solid{
     display: none;
 }
-img{
+img , #about-me-image{
     height: auto;
     width: 100%;
 }
+
+
 
 @media (max-width:950px){
    .hero h1{
@@ -191,10 +193,6 @@ img{
         padding: 0;
     }
     
-    #about-me-image{
-        width:300px;      
-    }
-
     nav a{
         font-size: 14px;
     }
