@@ -7,18 +7,6 @@
     --secondary-color: #c86b85;
 } 
 
-body{
-    font-family: var(--default-font-family);
-}
-.pre-title{
-    font-size: 28px;
-}
-.hero{
-    background-color: RGBA(211, 162, 204, 0.25);
-    padding: 270px 375px;
-    text-align: center;
-    margin: 0;    
-}
 .logo{
     max-width:100px;
 }
@@ -45,6 +33,52 @@ nav a:hover , li.active a{
    
 }
 
+body{
+    font-family: var(--default-font-family);
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+h3{
+    font-size: 48px;
+}
+.hero{
+    background-color: RGBA(211, 162, 204, 0.25);
+    padding: 100px 375px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+   
+}
+.hero p{
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.hero h1{
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 1.5;
+}
+.hero h2{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.pre-title{
+    font-size: 28px;
+}
 
 .content-container {
     padding: 50px 20px; ;
@@ -66,24 +100,6 @@ nav a:hover , li.active a{
 
 .content{
     margin: 30px;
-}
-
-.hero p{
-    font-size: 36px;
-    font-weight: bold;
-    
-}
-
-.hero h1{
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    font-size: 96px;
-    line-height: 1.5;
-}
-.hero h2{
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 2;
 }
 
 .title{
@@ -121,20 +137,7 @@ nav a:hover , li.active a{
     transition: all 200ms ease-in-out;
 }
 
-h2{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: var(--heading-font-family);
-}
-p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-}
 
-h4{
-    font-size: 48px;
-}
 .btn-branding-secondary{
     background: #c86b85;
     color: #fff;
@@ -197,26 +200,45 @@ footer .social-links a:hover{
     
 }
 
+.portfolio-link{
+    text-decoration: none;
+    color: #b86a80;
+    transition: all 100ms ease-in-out;
+}
+
+.portfolio-link:hover{
+    text-decoration: underline;
+}
+
+.portfolio-link:visited{
+    text-decoration: none;
+    color: #b86a80;
+}
+
 
 @media (max-width:950px){
-   .hero h1{
+   nav a{
+        font-size: 14px;
+    }
+    
+    .hero{
+    padding: 80px 20px;
+   }
+    .hero h1{
     font-size: 50px;
    }
+    .hero p{
+    font-size: 22px;
+   }
+
    h2{
     font-size: 44px;
    }
 
-   h4{
+   h3{
     font-size: 26px;
    }
-   .hero{
-    padding: 80px 20px;
-   }
 
-   .hero p{
-    font-size: 22px;
-   }
-   
    .project-description{
     padding: 30px 30px;
    }
@@ -241,9 +263,4 @@ footer .social-links a:hover{
     footer #contact-me-button{
         padding:20px;
     }
-
-    nav a{
-        font-size: 14px;
-    }
-
 }
