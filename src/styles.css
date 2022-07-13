@@ -215,6 +215,35 @@ footer .social-links a:hover{
     color: #b86a80;
 }
 
+/*for CV page*/
+.gradient-bg{
+    padding: 100px 375px;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+background: linear-gradient(306deg, #9896f0, #ff7082, #fbc8d5);
+    background-size: 100% 100%;
+
+    -webkit-animation: gradient 5s ease infinite;
+    
+
+
+@-webkit-keyframes .gradient-bg {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+}
+
 
 @media (max-width:950px){
    nav a{
