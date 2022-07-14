@@ -58,7 +58,7 @@ h3{
     margin-top: 10px;
    
 }
-.hero p{
+.hero .cv-header p{
     font-size: 36px;
     font-weight: bold;
     
@@ -216,17 +216,34 @@ footer .social-links a:hover{
 }
 
 /*for CV page*/
-.gradient{
+.cv-header{
     padding: 100px 375px;
     margin: 0;
     margin-top: 10px;
     text-align: center;
 background: linear-gradient(320deg, #EFB5C3, #F09AB3, #c2526b);
-    background-size: 800% 800%;
+    background-size: 500% 500%;
 
-    -webkit-animation: Gradient 10s ease infinite;
-    -moz-animation: Gradient 10s ease infinite;
-    animation: Gradient 10s ease infinite;
+    -webkit-animation: Gradient 7s ease infinite;
+    -moz-animation: Gradient 7s ease infinite;
+    animation: Gradient 7s ease infinite;
+}
+
+.cv-header h1 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 1.5;
+}
+
+.cv-header h2 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.cv-button {
+    background: #efd1d8;
 }
 
 
@@ -279,13 +296,26 @@ background: linear-gradient(320deg, #EFB5C3, #F09AB3, #c2526b);
         font-size: 14px;
     }
     
-    .hero{
+    .hero {
     padding: 80px 20px;
    }
     .hero h1{
     font-size: 50px;
    }
     .hero p{
+    font-size: 22px;
+   }
+
+   .cv-header{
+    padding: 80px 20px;
+    text-align: center;
+   }
+
+   .cv-header h1{
+    font-size: 50px;
+   }
+
+   .cv-header p {
     font-size: 22px;
    }
 
