@@ -216,19 +216,21 @@ footer .social-links a:hover{
 }
 
 /*for CV page*/
-.gradient-bg{
+.gradient{
     padding: 100px 375px;
     margin: 0;
     margin-top: 10px;
     text-align: center;
-background: linear-gradient(306deg, #9896f0, #ff7082, #fbc8d5);
-    background-size: 100% 100%;
+background: linear-gradient(320deg, #EFB5C3, #F09AB3, #c2526b);
+    background-size: 800% 800%;
 
-    -webkit-animation: gradient 5s ease infinite;
-    
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+}
 
 
-@-webkit-keyframes .gradient-bg {
+@-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
     }
@@ -242,7 +244,34 @@ background: linear-gradient(306deg, #9896f0, #ff7082, #fbc8d5);
     }
 }
 
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
 
 
 @media (max-width:950px){
