@@ -50,14 +50,7 @@ p{
 h3{
     font-size: 48px;
 }
-.hero{
-    background-color: RGBA(211, 162, 204, 0.25);
-    padding: 100px 375px;
-    text-align: center;
-    margin: 0;
-    margin-top: 10px;
-   
-}
+
 .hero .cv-header p{
     font-size: 36px;
     font-weight: bold;
@@ -129,7 +122,8 @@ h3{
     font-size: 20px;
     font-weight: 500;
     border: var(--primary-color) solid 1px;
-    border-radius: 4px;    
+    border-radius: 4px; 
+    text-shadow: none;  
 }
 .btn-branding:hover{
     background: #e0bbbe;
@@ -216,18 +210,33 @@ footer .social-links a:hover{
 }
 
 /*for CV page*/
-.cv-header{
+.video-wrapper{
     padding: 100px 375px;
     margin: 0;
     margin-top: 10px;
     text-align: center;
-background: linear-gradient(320deg, #EFB5C3, #F09AB3, #c2526b);
-    background-size: 500% 500%;
-
-    -webkit-animation: Gradient 7s ease infinite;
-    -moz-animation: Gradient 7s ease infinite;
-    animation: Gradient 7s ease infinite;
+    
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150%;
+    width: 100%;
+    }
+.header{
+    position: relative;
+        color: white;
+        text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
 }
+
+video{
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width:100% ;
+}
+
 
 .cv-header h1 {
     font-family: var(--heading-font-family);
@@ -244,6 +253,7 @@ background: linear-gradient(320deg, #EFB5C3, #F09AB3, #c2526b);
 
 .cv-button {
     background: #efd1d8;
+    text-shadow: none;
 }
 
 
