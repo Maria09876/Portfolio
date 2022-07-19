@@ -306,7 +306,7 @@ video{
         font-size: 14px;
     }
     
-    .hero {
+    .video-wrapper{
     padding: 80px 20px;
    }
     .hero h1{
@@ -317,7 +317,7 @@ video{
    }
 
    .cv-header{
-    padding: 80px 20px;
+    
     text-align: center;
    }
 
