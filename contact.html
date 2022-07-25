@@ -36,26 +36,54 @@
   </head>
 
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <img
-          src="/images/1.png"
-          alt="Maria Efthymiou logo"
-          title="Contact Maria"
-          class="logo img-fluid rounded d-none d-md-block"
-        />
-        <ul>
-          <li><a href="/" title="Homepage">Home</a></li>
-          <li><a href="/about-me.html" title="About Maria">About me</a></li>
-
-          <li>
-            <a href="/projects.html" title="Maria's projects"> Projects</a>
-          </li>
-          <li class="active">
-            <a href="/contact.html" title="Contac Maria">Contact</a>
-          </li>
-        </ul>
-      </nav>
+     <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img
+            src="/images/1.png"
+            alt="Maria Efthymiou logo"
+            title="Homepage"
+            class="logo img-fluid rounded d-none d-md-block"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/"
+              title="Homepage"
+              
+              >Homepage</a
+            >
+            <a
+              class="nav-link"
+              href="/about-me.html"
+              title="About Maria"
+              
+              >About me</a
+            >
+            <a class="nav-link" href="/projects.html" title="Maria's Projects" 
+              >Projects</a
+            >
+            <a class="nav-link" href="/contact.html" title="Contact Maria" id="activeLink"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
     </div>
     <div class="contact">
       <div class="content-container container">
